@@ -20,7 +20,7 @@ class _GenderWidgetState extends State<GenderWidget> {
 
   final ChoiceChip3DStyle unSelectedStyle = ChoiceChip3DStyle(
       topColor: Colors.white,
-      backColor: Colors.grey[300]!,
+      backColor: Colors.grey[200]!,
       borderRadius: BorderRadius.circular(20));
 
   @override
@@ -66,7 +66,7 @@ class _GenderWidgetState extends State<GenderWidget> {
                 children: [
                   Image.asset('assets/images/woman.png', width: 50),
                   const SizedBox(
-                    height: 50,
+                    height: 5,
                   ),
                   const Text('Female')
                 ],
