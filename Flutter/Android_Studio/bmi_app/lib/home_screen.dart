@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text('BMI Calculator'),
+          title: const Text('Body Mass Index'),
         ),
         body: SingleChildScrollView(
           child: Container(
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             });
                           });
                         },
-                        activeColor: Colors.blue,
+                        activeColor: Colors.brown,
                         buttonWidget: const Icon(
                           Icons.arrow_forward_ios_rounded,
                           color: Colors.black,

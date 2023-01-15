@@ -30,7 +30,7 @@ class ScoreScreen extends StatelessWidget {
             children: [
               const Text(
                 "Your Score",
-                style: TextStyle(fontSize: 30, color: Colors.blue),
+                style: TextStyle(fontSize: 30, color: Colors.brown),
               ),
               const SizedBox(
                 height: 10,
@@ -50,7 +50,7 @@ class ScoreScreen extends StatelessWidget {
                   style: const TextStyle(fontSize: 40),
                 ),
                 currentValue: bmiScore.toDouble(),
-                needleColor: Colors.blue,
+                needleColor: Colors.brown,
               ),
               const SizedBox(
                 height: 10,

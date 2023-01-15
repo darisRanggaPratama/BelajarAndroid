@@ -23,7 +23,7 @@ class _HeightWidgetState extends State<HeightWidget> {
           children: [
             const Text(
               'Height',
-              style: TextStyle(fontSize: 25, color: Colors.grey),
+              style: TextStyle(fontSize: 25, color: Colors.brown),
             ),
             const SizedBox(
               height: 10,
@@ -40,7 +40,7 @@ class _HeightWidgetState extends State<HeightWidget> {
                 ),
                 const Text(
                   'cm',
-                  style: TextStyle(fontSize: 20, color: Colors.grey),
+                  style: TextStyle(fontSize: 20, color: Colors.brown),
                 )
               ],
             ),
@@ -48,7 +48,7 @@ class _HeightWidgetState extends State<HeightWidget> {
                 min: 0,
                 max: 240,
                 value: _height.toDouble(),
-                thumbColor: Colors.red,
+                thumbColor: Colors.brown,
                 onChanged: (value) {
                   setState(() {
                     _height = value.toInt();
