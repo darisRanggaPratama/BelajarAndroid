@@ -1,6 +1,6 @@
 # body_mass_index_app
 
-body mass index apps
+R Rangga Pratama_TugasKe1_BMI-Calculator
 
 ## Getting Started
 
