@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this@MainActivity, "Please fill all fields", Toast.LENGTH_SHORT)
                         .show()
                 } else {
-                    // Jika bernilai tampilkan isi variable di Toast
-                    Toast.makeText(this@MainActivity, "Name: $txtUserName Password: $txtPassWord", Toast.LENGTH_SHORT).show()
+                    // Jika bernilai tampilkan isi variable di Toast. Toast Lama
+                    Toast.makeText(this@MainActivity, "Name: $txtUserName Password: $txtPassWord", Toast.LENGTH_LONG).show()
                 }
             }
         )

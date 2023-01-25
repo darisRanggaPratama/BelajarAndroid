@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Deklarasi Variable
         userName = findViewById(R.id.edt_username);
         passWord = findViewById(R.id.edt_password);
         login = findViewById(R.id.btn_login);
@@ -24,12 +24,16 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Ambil value dari layout (xml). Konversi ke String
                 String txtUserName = userName.getText().toString();
                 String txtPassWord = passWord.getText().toString();
 
+                // Cek value variable
                 if (txtUserName.isEmpty() || txtPassWord.isEmpty()) {
+                    // Toast bila nilai null
                     Toast.makeText(MainActivity.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
                 } else {
+                    // Toast tampilkan value bila benar. Toast Sebentar.
                     Toast.makeText(MainActivity.this, "Nama: " + txtUserName + " Password: " + txtPassWord, Toast.LENGTH_SHORT).show();
                 }
             }
